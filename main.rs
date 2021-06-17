@@ -79,5 +79,9 @@ fn main() {
     let(jets,ammo,fuel) = info;
     
     //Buf
-    let buf: [u8: 3] = [1,2,3];
+    let buf: [u8; 3] = [1,2,3];
+    
+    //Indexing Array
+    println!("{}", buf[0])
+    
 }
