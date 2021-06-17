@@ -77,4 +77,7 @@ fn main() {
     
     //ACCESS ALL FROM TUPEL
     let(jets,ammo,fuel) = info;
+    
+    //Buf
+    let buf: [u8: 3] = [1,2,3];
 }
