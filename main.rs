@@ -74,4 +74,7 @@ fn main() {
     let fuel = info.2;//returns 3
 
     println!("{},{},{}",jets,ammo,fuel );
+    
+    //ACCESS ALL FROM TUPEL
+    let(jets,ammo,fuel) = info;
 }
